@@ -1,0 +1,6 @@
+
+В данный момент поддержка Create React App прекратилась, но его все еще можно использовать. Для корректной работы необходимо дополнительно установить пакет «web-vitals», чтобы исправить ошибку «Module not found: Error: Can't resolve 'web-vitals'». Для этого выполните команду:
+
+
+
+npm install --no-audit --save @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0 --legacy-peer-deps
